@@ -28,8 +28,8 @@ int main(int argc, string argv[])
 
 string replace(string text)
 {
-
-    for (int i = 0 ; i < strlen(text) ; i++)
+    int n = strlen(text);
+    for (int i = 0 ; i < n ; i++)
     {
         switch (text[i])
         {

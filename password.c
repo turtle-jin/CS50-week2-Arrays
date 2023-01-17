@@ -29,8 +29,8 @@ bool valid(string password)
     bool upper = false ;
     bool number = false ;
     bool symbol = false ;
-
-    for (int i = 0 ; i < strlen(password) ; i++)
+    int n = strlen(password);
+    for (int i = 0 ; i < n ; i++)
     {
         int letter = password[i];
 

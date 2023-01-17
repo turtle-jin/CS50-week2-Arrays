@@ -41,8 +41,8 @@ int compute_score(string word)
 {
     // TODO: Compute and return score for string
     int sum = 0;
-
-    for (int i = 0, n = strlen(word); i < n ; i++)
+    int n = strlen(word);
+    for (int i = 0 ; i < n ; i++)
     {
         int upper_num = toupper(word[i]); //change to all uppercase
 

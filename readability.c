@@ -50,8 +50,8 @@ int main(void)
 int count_letters(string text) //function to count letters
 {
     int num_of_letters = 0;
-
-    for (int i = 0, n = strlen(text); i < n ; i++)
+    int n = strlen(text);
+    for (int i = 0; i < n ; i++)
     {
         int upper_text = toupper(text[i]);
         if (upper_text >= 65 && upper_text <= 90)  //make sure they are letters
